@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: #fcf2e3;
+}
+
+.content {
+    padding: 0 24px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    font-size: 20px
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+.left-header {
+    display: flex;
+    gap: 54px;
+    justify-content: space-evenly;
+}
+
+.right-header {
+    display: flex;
+    gap: 32px;
+}
+
+.twitter, .github {
+    width: 30px;
+}
+
+.home {
+    display: flex;
+    padding: 80px 100px;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+
+.left-home {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    flex: 0 0 auto;
+    align-self: center;
+}
+
+.hero-text {
+    font-size: 80px;
+}
+
+.description {
+    font-size: 25px;
+    margin-top: 0;
+}
+
+.picture {
+    flex: 1 0 auto;
+}
+
+.more-aboutme {
+    font-size: 30px;
+    padding: 24px 64px;
+    border: solid;
+    border-radius: 0%;
+    align-self: baseline;
+    margin-top: 24px;
+    letter-spacing: 5px;
+}
+
+.more-aboutme:hover {
+    font-size: 30px;
+    padding: 24px 64px;
+    border: solid;
+    border-radius: 0%;
+    align-self: baseline;
+    margin-top: 24px;
+    letter-spacing: 5px;
+    color: white;
+    background: black;
+    transition-duration: 0.5s;
+}
+
+
+.portrait {
+    width: 700px;
+    flex-shrink: 0;
+    border-radius: 20px;
+}
+
+.about {
+    background: rgb(255, 255, 255);
+    padding: 80px 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 35px;
+    margin: 200px 100px;
+}
+
+.top-about {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.about-me {
+    font-size: 60px;
+    letter-spacing: 5px;
+    margin: 20px;
+}
+
+.about-me-p {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.right-about {
+    width: 700px;
+}
+
+.bottom-about {
+    display: flex;
+    gap: 50px;
+}
+
+.bottom-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.environment {
+    width: 500px;
+    border-radius: 20px;
+}
+
+.check-out-projects {
+    font-size: 30px;
+    padding: 24px 64px;
+    border: solid;
+    border-radius: 0%;
+    align-self: baseline;
+    margin-top: 24px;
+    letter-spacing: 5px;
+}
+
+.check-out-projects:hover {
+    font-size: 30px;
+    padding: 24px 64px;
+    border: solid;
+    border-radius: 0%;
+    align-self: baseline;
+    margin-top: 24px;
+    letter-spacing: 5px;
+    color: white;
+    background: black;
+    transition-duration: 0.5s;
+}
+
+.footer {
+    background: white;
+    align-self: flex-end;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text {
+    margin: 0;
+    padding: 24px;
+}
+
+@media only screen and (max-width: 900px){
+    
+}
